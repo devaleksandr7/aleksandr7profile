@@ -1,0 +1,148 @@
+
+body{
+    color: #fff;
+    font-family: monospace;
+    font-size: 15px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+/*caixa central grande*/
+#container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    background-color: #174308;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+/*Caixa da esquerda*/
+.boxLeft{
+    width: 180px;
+    height: 330px;
+    margin-top: 60px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+li{
+    margin-bottom: 7px;
+}
+
+/*CAIXA DA DIREITA*/
+/*CAIXA DA DIREITA CIMA*/
+.top{
+    margin-top: 50px;
+    width: 500px;
+    height: 40px;
+    margin-left: 34px;
+}
+
+button{
+    width: 110px;
+    height: 35px;
+    background-color: #05A91F;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+
+button:hover{
+    color: #05A91F;
+    background-color: #fff;
+    
+}
+
+/*CAIXA DA DIREITA BAIXO*/
+.botton{
+    display: flex;
+    width: 480px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: #05A91F;
+    border-radius: 20px;
+}
+
+.bottonLeft{
+    width: 50%;
+}
+
+.bottonRigth{
+    width: 50%;
+}
+
+.botton button{
+    width: 130px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    color: #05A91F;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top:50px;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.botton button:hover{
+    background-color: #05A91F;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+/*Deixa as bordas da foto arredondadas*/
+img{
+    border-radius: 15px;
+}
+
+li{
+    text-align: left;
+}
+
+/*AREA DE CONTATO*/
+#containerContato{
+    margin: auto;
+    height: 500px;
+    width: 800px;
+    background-color: #174308;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title{
+    line-height: 100px;
+}
+
+.conteudo{
+    margin: auto;
+    width: 600px;
+    height: 250px;
+    line-height: 25px;
+}
+
+.conteudo p{
+    margin-top: 40px;
+}
+
+.ctt{
+    height: 250px;
+}
+
+.ctt img{
+    border: #05A91F 1px solid;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ctt img:hover{
+    background-color: #05A91F;
+}
